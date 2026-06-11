@@ -1,0 +1,17 @@
+[project]
+name = "ecm-target-discovery-pipeline"
+version = "0.1.0"
+description = "Reproducible multi-omics bioinformatics workflow for ECM target discovery in PDAC"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]

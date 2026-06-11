@@ -1,0 +1,92 @@
+# ECM Target Discovery Pipeline - Parameters
+# All configurable parameters in one place.
+
+# --- Project ---
+project_name: "ecm-target-discovery-pipeline"
+species: "Homo sapiens"
+genome_build: "GRCh38"
+
+# --- Dataset ---
+dataset:
+  source: "CPTAC"
+  cohort: "PDAC"
+  description: "Clinical Proteomic Tumor Analysis Consortium - Pancreatic Ductal Adenocarcinoma"
+  transcriptomics_type: "bulk_rnaseq"
+  proteomics_type: "TMT"
+  clinical_metadata: true
+
+# --- Data paths ---
+paths:
+  raw: "data/raw"
+  interim: "data/interim"
+  processed: "data/processed"
+  results: "results"
+  figures: "figures"
+  gene_sets: "resources/gene_sets"
+
+# --- Transcriptomics ---
+transcriptomics:
+  # Filtering
+  min_count: 10
+  min_samples: 3
+  # Normalisation handled by DESeq2 (median of ratios)
+
+  # Differential expression
+  de_method: "DESeq2"
+  padj_threshold: 0.05
+  log2fc_threshold: 1.0
+
+# --- ECM signature ---
+ecm_signature:
+  # Gene set sources
+  gene_set_collections:
+    - "NABA_MATRISOME"
+    - "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION"
+    - "REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION"
+    - "REACTOME_COLLAGEN_FORMATION"
+    - "REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX"
+  scoring_method: "ssGSEA"
+
+# --- Pathway enrichment ---
+enrichment:
+  method: "fgsea"
+  min_gene_set_size: 15
+  max_gene_set_size: 500
+  n_permutations: 10000
+  padj_threshold: 0.05
+
+# --- Proteomics ---
+proteomics:
+  # Missing data
+  max_missing_fraction: 0.5
+  imputation_method: "MinProb"
+  # Differential abundance
+  da_method: "limma"
+  padj_threshold: 0.05
+  log2fc_threshold: 0.5
+
+# --- Survival analysis ---
+survival:
+  time_column: "overall_survival_months"
+  event_column: "vital_status"
+  stratification_variable: "ecm_score_group"
+  method: "kaplan_meier"
+  test: "log_rank"
+
+# --- Machine learning ---
+ml:
+  task: "classification"
+  target: "ecm_score_group"
+  test_size: 0.3
+  random_state: 42
+  cv_folds: 5
+  models:
+    - "logistic_regression"
+    - "random_forest"
+    - "elastic_net"
+
+# --- Reproducibility ---
+reproducibility:
+  random_seed: 42
+  r_version: "4.4"
+  python_version: "3.12"
