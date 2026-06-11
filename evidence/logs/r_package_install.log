@@ -39,3 +39,125 @@ also installing the dependencies ‘fastmap’, ‘sys’, ‘bit’, ‘ps’, 
   Installing survminer...
 also installing the dependencies ‘colorspace’, ‘fracdiff’, ‘lmtest’, ‘timeDate’, ‘urca’, ‘zoo’, ‘RcppArmadillo’, ‘Deriv’, ‘forecast’, ‘microbenchmark’, ‘rbibutils’, ‘numDeriv’, ‘doBy’, ‘SparseM’, ‘MatrixModels’, ‘Rdpack’, ‘minqa’, ‘nloptr’, ‘reformulas’, ‘RcppEigen’, ‘commonmark’, ‘carData’, ‘abind’, ‘Formula’, ‘pbkrtest’, ‘quantreg’, ‘lme4’, ‘litedown’, ‘Rcpp’, ‘corrplot’, ‘car’, ‘curl’, ‘markdown’, ‘png’, ‘jpeg’, ‘xml2’, ‘ggrepel’, ‘ggsci’, ‘cowplot’, ‘ggsignif’, ‘polynom’, ‘rstatix’, ‘exactRankTests’, ‘mvtnorm’, ‘gridtext’, ‘ggpubr’, ‘gridExtra’, ‘maxstat’, ‘ggtext’
 
+  broom already installed
+  Installing ggfortify...
+  ggplot2 already installed
+  Installing pheatmap...
+  ggrepel already installed
+  Installing patchwork...
+  RColorBrewer already installed
+  Installing viridis...
+  scales already installed
+  Installing factoextra...
+also installing the dependencies ‘fs’, ‘sass’, ‘bslib’, ‘nloptr’, ‘lazyeval’, ‘rmarkdown’, ‘later’, ‘pbkrtest’, ‘lme4’, ‘crosstalk’, ‘htmlwidgets’, ‘promises’, ‘estimability’, ‘car’, ‘DT’, ‘ellipse’, ‘emmeans’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘scatterplot3d’, ‘irlba’, ‘rstatix’, ‘cluster’, ‘dendextend’, ‘FactoMineR’, ‘ggpubr’
+
+  cluster already installed
+  Installing umap...
+also installing the dependencies ‘rprojroot’, ‘RcppTOML’, ‘here’, ‘openssl’, ‘reticulate’, ‘RSpectra’
+
+  Installing Rtsne...
+  Installing glmnet...
+also installing the dependencies ‘iterators’, ‘foreach’, ‘shape’
+
+  Installing randomForest...
+  Installing caret...
+also installing the dependencies ‘listenv’, ‘parallelly’, ‘future’, ‘globals’, ‘future.apply’, ‘progressr’, ‘SQUAREM’, ‘diagram’, ‘lava’, ‘prodlim’, ‘proxy’, ‘clock’, ‘gower’, ‘hardhat’, ‘ipred’, ‘sparsevctrs’, ‘e1071’, ‘ModelMetrics’, ‘plyr’, ‘pROC’, ‘recipes’, ‘reshape2’
+
+  Installing rmarkdown...
+also installing the dependencies ‘fs’, ‘sass’, ‘bslib’
+
+  knitr already installed
+  here already installed
+  Installing fs...
+  Installing janitor...
+also installing the dependency ‘snakecase’
+
+  Installing testthat...
+also installing the dependencies ‘fs’, ‘pkgbuild’, ‘diffobj’, ‘brio’, ‘desc’, ‘pkgload’, ‘praise’, ‘waldo’
+
+  Installing optparse...
+There were 50 or more warnings (use warnings() to see the first 50)
+
+Installing Bioconductor packages...
+  Installing DESeq2...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'BiocVersion', 'DESeq2'
+also installing the dependencies ‘bitops’, ‘formatR’, ‘RCurl’, ‘GenomeInfoDbData’, ‘zlibbioc’, ‘SparseArray’, ‘lambda.r’, ‘futile.options’, ‘GenomeInfoDb’, ‘XVector’, ‘S4Arrays’, ‘DelayedArray’, ‘futile.logger’, ‘snow’, ‘BH’, ‘S4Vectors’, ‘IRanges’, ‘GenomicRanges’, ‘SummarizedExperiment’, ‘BiocGenerics’, ‘Biobase’, ‘BiocParallel’, ‘matrixStats’, ‘locfit’, ‘MatrixGenerics’
+
+  Installing edgeR...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'edgeR'
+also installing the dependencies ‘statmod’, ‘limma’
+
+  limma already installed
+  Installing org.Hs.eg.db...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'org.Hs.eg.db'
+also installing the dependencies ‘RCurl’, ‘curl’, ‘openssl’, ‘GenomeInfoDb’, ‘httr’, ‘Biostrings’, ‘RSQLite’, ‘KEGGREST’, ‘AnnotationDbi’
+
+  Installing AnnotationDbi...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'AnnotationDbi'
+also installing the dependencies ‘RCurl’, ‘curl’, ‘openssl’, ‘GenomeInfoDb’, ‘httr’, ‘Biostrings’, ‘KEGGREST’
+
+  Installing biomaRt...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'biomaRt'
+also installing the dependencies ‘RCurl’, ‘GenomeInfoDb’, ‘Biostrings’, ‘KEGGREST’, ‘curl’, ‘openssl’, ‘filelock’, ‘XML’, ‘AnnotationDbi’, ‘httr’, ‘BiocFileCache’, ‘xml2’
+
+  Installing clusterProfiler...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'clusterProfiler'
+also installing the dependencies ‘sass’, ‘fontBitstreamVera’, ‘fontLiberation’, ‘bslib’, ‘RCurl’, ‘fontquiver’, ‘rmarkdown’, ‘GenomeInfoDb’, ‘gridGraphics’, ‘tweenr’, ‘polyclip’, ‘systemfonts’, ‘gdtools’, ‘htmlwidgets’, ‘Biostrings’, ‘fastmatch’, ‘ggplotify’, ‘ggforce’, ‘tidygraph’, ‘graphlayouts’, ‘ggiraph’, ‘ape’, ‘tidytree’, ‘treeio’, ‘KEGGREST’, ‘HDO.db’, ‘fgsea’, ‘aplot’, ‘ggfun’, ‘ggnewscale’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘ggtree’, ‘curl’, ‘openssl’, ‘fs’, ‘AnnotationDbi’, ‘downloader’, ‘DOSE’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘gson’, ‘httr’, ‘igraph’, ‘qvalue’, ‘yulab.utils’
+
+  Installing enrichplot...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'enrichplot'
+also installing the dependencies ‘RCurl’, ‘sass’, ‘curl’, ‘openssl’, ‘GenomeInfoDb’, ‘bslib’, ‘httr’, ‘Biostrings’, ‘rmarkdown’, ‘KEGGREST’, ‘systemfonts’, ‘gdtools’, ‘htmlwidgets’, ‘ggplotify’, ‘AnnotationDbi’, ‘HDO.db’, ‘fgsea’, ‘ggforce’, ‘ggiraph’, ‘GO.db’, ‘tidytree’, ‘treeio’, ‘fs’, ‘aplot’, ‘DOSE’, ‘ggfun’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘GOSemSim’, ‘ggtree’, ‘yulab.utils’
+
+  Installing msigdbr...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'msigdbr'
+also installing the dependencies ‘assertthat’, ‘babelgene’, ‘curl’
+
+  Installing GSVA...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'GSVA'
+also installing the dependencies ‘curl’, ‘openssl’, ‘Biostrings’, ‘RCurl’, ‘xtable’, ‘httr’, ‘KEGGREST’, ‘GenomicRanges’, ‘GenomeInfoDb’, ‘annotate’, ‘graph’, ‘AnnotationDbi’, ‘XML’, ‘rhdf5’, ‘rhdf5filters’, ‘Rhdf5lib’, ‘ScaledMatrix’, ‘rsvd’, ‘beachmat’, ‘SummarizedExperiment’, ‘GSEABase’, ‘SingleCellExperiment’, ‘sparseMatrixStats’, ‘DelayedMatrixStats’, ‘HDF5Array’, ‘BiocSingular’
+

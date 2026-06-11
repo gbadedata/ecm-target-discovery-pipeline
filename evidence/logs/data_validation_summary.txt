@@ -1,0 +1,50 @@
+======================================================================
+ECM TARGET DISCOVERY PIPELINE - DATA VALIDATION REPORT
+======================================================================
+Timestamp: 2026-06-11T15:11:47.902599+00:00
+Dataset:   CPTAC PDAC
+Result:    5/5 files passed validation
+
+[PASS] rnaseq_tumor.cct
+       Bulk RNA-seq, RSEM-UQ log2, tumour samples
+       Size: 52.66 MB
+       Checksum: valid
+       Shape: 28057 features x 140 samples
+       Missing: 0.00%
+       Value range: [0.00, 24.77]
+
+[PASS] rnaseq_normal.cct
+       Bulk RNA-seq, RSEM-UQ log2, normal adjacent tissue
+       Size: 8.05 MB
+       Checksum: valid
+       Shape: 28057 features x 21 samples
+       Missing: 0.00%
+       Value range: [0.00, 24.46]
+
+[PASS] proteomics_tumor.cct
+       TMT proteomics, median-normalised intensity, tumour
+       Size: 21.04 MB
+       Checksum: valid
+       Shape: 11662 features x 140 samples
+       Missing: 24.63%
+       Value range: [10.04, 36.04]
+
+[PASS] proteomics_normal.cct
+       TMT proteomics, median-normalised intensity, normal
+       Size: 11.28 MB
+       Checksum: valid
+       Shape: 11662 features x 75 samples
+       Missing: 24.83%
+       Value range: [10.80, 35.48]
+
+[PASS] clinical.tsv
+       Clinical metadata for 140 PDAC patients
+       Size: 0.06 MB
+       Checksum: valid
+       Patients: 140, Columns: 39
+       Key columns present: case_id, age, histology_diagnosis, tumor_stage_pathological, vital_status
+       Key columns MISSING: gender, overall_survival
+
+======================================================================
+ALL FILES PASSED VALIDATION
+======================================================================

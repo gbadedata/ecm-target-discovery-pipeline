@@ -1,0 +1,334 @@
+{
+  "validation_timestamp": "2026-06-11T15:11:47.902599+00:00",
+  "project": "ecm-target-discovery-pipeline",
+  "dataset": {
+    "source": "CPTAC",
+    "cohort": "PDAC",
+    "description": "Clinical Proteomic Tumor Analysis Consortium - Pancreatic Ductal Adenocarcinoma",
+    "transcriptomics_type": "bulk_rnaseq",
+    "proteomics_type": "TMT",
+    "clinical_metadata": true
+  },
+  "python_version": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "pandas_version": "2.3.3",
+  "files": {
+    "rnaseq_tumor.cct": {
+      "description": "Bulk RNA-seq, RSEM-UQ log2, tumour samples",
+      "data_type": "transcriptomics",
+      "presence": {
+        "exists": true,
+        "size_bytes": 55217164,
+        "size_mb": 52.66
+      },
+      "checksum": {
+        "valid": true,
+        "expected": "a1d4c16bd6ae65183ba108efdbc39241a829b9c47941cc853d434d9671cb7809",
+        "actual": "a1d4c16bd6ae65183ba108efdbc39241a829b9c47941cc853d434d9671cb7809"
+      },
+      "structure": {
+        "valid": true,
+        "n_features": 28057,
+        "n_samples": 140,
+        "expected_features": 28057,
+        "expected_samples_approx": 140,
+        "features_match": true,
+        "samples_match": true,
+        "all_numeric": true,
+        "missing_fraction": 0.0,
+        "features_with_no_missing": 28057,
+        "samples_with_no_missing": 140,
+        "worst_feature_missing_pct": 0.0,
+        "worst_sample_missing_pct": 0.0,
+        "value_min": 0.0,
+        "value_max": 24.768139303818,
+        "value_mean": 6.2558,
+        "sample_ids_preview": [
+          "C3L-03394",
+          "C3N-03428",
+          "C3L-02112",
+          "C3N-01719",
+          "C3N-03670"
+        ],
+        "feature_ids_preview": [
+          "A1BG",
+          "A1BG-AS1",
+          "A1CF",
+          "A2M",
+          "A2M-AS1"
+        ]
+      },
+      "valid": true
+    },
+    "rnaseq_normal.cct": {
+      "description": "Bulk RNA-seq, RSEM-UQ log2, normal adjacent tissue",
+      "data_type": "transcriptomics",
+      "presence": {
+        "exists": true,
+        "size_bytes": 8444836,
+        "size_mb": 8.05
+      },
+      "checksum": {
+        "valid": true,
+        "expected": "1fdd4be99afbfd8c99baf6c39aafd0da758781f1918458839c345476613ba540",
+        "actual": "1fdd4be99afbfd8c99baf6c39aafd0da758781f1918458839c345476613ba540"
+      },
+      "structure": {
+        "valid": true,
+        "n_features": 28057,
+        "n_samples": 21,
+        "expected_features": 28057,
+        "expected_samples_approx": 21,
+        "features_match": true,
+        "samples_match": true,
+        "all_numeric": true,
+        "missing_fraction": 0.0,
+        "features_with_no_missing": 28057,
+        "samples_with_no_missing": 21,
+        "worst_feature_missing_pct": 0.0,
+        "worst_sample_missing_pct": 0.0,
+        "value_min": 0.0,
+        "value_max": 24.4576532012313,
+        "value_mean": 6.2855,
+        "sample_ids_preview": [
+          "C3L-02610",
+          "C3N-01998",
+          "C3L-01637",
+          "C3L-02606",
+          "C3N-00436"
+        ],
+        "feature_ids_preview": [
+          "A1BG",
+          "A1BG-AS1",
+          "A1CF",
+          "A2M",
+          "A2M-AS1"
+        ]
+      },
+      "valid": true
+    },
+    "proteomics_tumor.cct": {
+      "description": "TMT proteomics, median-normalised intensity, tumour",
+      "data_type": "proteomics",
+      "presence": {
+        "exists": true,
+        "size_bytes": 22062573,
+        "size_mb": 21.04
+      },
+      "checksum": {
+        "valid": true,
+        "expected": "41c6b96da709b76d92142f0590d25005ae6d79d52242449410801250a6ff0d88",
+        "actual": "41c6b96da709b76d92142f0590d25005ae6d79d52242449410801250a6ff0d88"
+      },
+      "structure": {
+        "valid": true,
+        "n_features": 11662,
+        "n_samples": 140,
+        "expected_features": 11662,
+        "expected_samples_approx": 140,
+        "features_match": true,
+        "samples_match": true,
+        "all_numeric": true,
+        "missing_fraction": 0.24632,
+        "features_with_no_missing": 5767,
+        "samples_with_no_missing": 0,
+        "worst_feature_missing_pct": 100.0,
+        "worst_sample_missing_pct": 32.39,
+        "value_min": 10.0380587077953,
+        "value_max": 36.0412523353886,
+        "value_mean": 23.9125,
+        "sample_ids_preview": [
+          "C3L-03394",
+          "C3N-03428",
+          "C3L-02112",
+          "C3N-01719",
+          "C3N-03670"
+        ],
+        "feature_ids_preview": [
+          "A1BG",
+          "A1CF",
+          "A2M",
+          "A2ML1",
+          "A4GALT"
+        ]
+      },
+      "valid": true
+    },
+    "proteomics_normal.cct": {
+      "description": "TMT proteomics, median-normalised intensity, normal",
+      "data_type": "proteomics",
+      "presence": {
+        "exists": true,
+        "size_bytes": 11830447,
+        "size_mb": 11.28
+      },
+      "checksum": {
+        "valid": true,
+        "expected": "6f3d8408ff4b0e025d070394f8c038568ff35f46430cb8758e30dcba339b9bc5",
+        "actual": "6f3d8408ff4b0e025d070394f8c038568ff35f46430cb8758e30dcba339b9bc5"
+      },
+      "structure": {
+        "valid": true,
+        "n_features": 11662,
+        "n_samples": 75,
+        "expected_features": 11662,
+        "expected_samples_approx": 75,
+        "features_match": true,
+        "samples_match": true,
+        "all_numeric": true,
+        "missing_fraction": 0.248287,
+        "features_with_no_missing": 5749,
+        "samples_with_no_missing": 0,
+        "worst_feature_missing_pct": 98.67,
+        "worst_sample_missing_pct": 32.46,
+        "value_min": 10.8046755453561,
+        "value_max": 35.4760826533677,
+        "value_mean": 23.932,
+        "sample_ids_preview": [
+          "C3L-03123",
+          "C3N-03884",
+          "C3L-03630",
+          "C3L-03356",
+          "C3L-01054"
+        ],
+        "feature_ids_preview": [
+          "A1BG",
+          "A1CF",
+          "A2M",
+          "A2ML1",
+          "A4GALT"
+        ]
+      },
+      "valid": true
+    },
+    "clinical.tsv": {
+      "description": "Clinical metadata for 140 PDAC patients",
+      "data_type": "clinical",
+      "presence": {
+        "exists": true,
+        "size_bytes": 65283,
+        "size_mb": 0.06
+      },
+      "checksum": {
+        "valid": true,
+        "expected": "f313d026b50d55adefb327e4f953a8e32c43e7a7f99b0e3575a7464878276223",
+        "actual": "f313d026b50d55adefb327e4f953a8e32c43e7a7f99b0e3575a7464878276223"
+      },
+      "structure": {
+        "valid": true,
+        "n_patients": 140,
+        "n_columns": 39,
+        "all_columns": [
+          "case_id",
+          "tumor_included_for_the_study",
+          "normal_included_for_the_study",
+          "histology_diagnosis",
+          "age",
+          "sex",
+          "race",
+          "participant_country",
+          "tumor_site",
+          "tumor_focality",
+          "tumor_size_cm",
+          "tumor_necrosis",
+          "lymph_vascular_invasion",
+          "perineural_invasion",
+          "number_of_lymph_nodes_examined",
+          "number_of_lymph_nodes_positive_for_tumor",
+          "pathologic_staging_regional_lymph_nodes_pn",
+          "pathologic_staging_primary_tumor_pt",
+          "pathologic_staging_distant_metastasis_pm",
+          "clinical_staging_distant_metastasis_cm",
+          "residual_tumor",
+          "tumor_stage_pathological",
+          "additional_pathologic_findings",
+          "bmi",
+          "alcohol_consumption",
+          "tobacco_smoking_history",
+          "medical_condition",
+          "Neoplastic_cellularity",
+          "Acinar_fraction",
+          "Islet_fraction",
+          "Stromal_fraction",
+          "Non_neoplastic_duct",
+          "Fat_fraction",
+          "Inflammation_fraction",
+          "Muscle_fraction",
+          "follow_up_days",
+          "vital_status",
+          "is_this_patient_lost_to_follow_up",
+          "cause_of_death"
+        ],
+        "key_columns_present": [
+          "case_id",
+          "age",
+          "histology_diagnosis",
+          "tumor_stage_pathological",
+          "vital_status"
+        ],
+        "key_columns_missing": [
+          "gender",
+          "overall_survival"
+        ],
+        "completeness_summary": {
+          "fully_complete": 20,
+          "above_90_pct": 38,
+          "below_50_pct": 1
+        },
+        "field_summaries": {
+          "case_id": {
+            "unique_values": 140,
+            "top_values": {
+              "C3L-00017": 1,
+              "C3L-00102": 1,
+              "C3L-00189": 1,
+              "C3L-00277": 1,
+              "C3L-00401": 1
+            },
+            "missing": 0
+          },
+          "age": {
+            "min": 31.0,
+            "max": 85.0,
+            "mean": 64.25,
+            "missing": 0
+          },
+          "histology_diagnosis": {
+            "unique_values": 2,
+            "top_values": {
+              "PDAC": 135,
+              "Adenosquamous carcinoma": 5
+            },
+            "missing": 0
+          },
+          "tumor_stage_pathological": {
+            "unique_values": 6,
+            "top_values": {
+              "Stage IIB": 52,
+              "Stage III": 42,
+              "Stage IB": 16,
+              "Stage IV": 9,
+              "Stage IIA": 8
+            },
+            "missing": 6
+          },
+          "vital_status": {
+            "unique_values": 2,
+            "top_values": {
+              "Deceased": 77,
+              "Living": 59
+            },
+            "missing": 4
+          }
+        }
+      },
+      "valid": true
+    }
+  },
+  "summary": {
+    "total_files": 5,
+    "passed": 5,
+    "failed": 0,
+    "all_valid": true,
+    "pass_rate": "5/5"
+  }
+}
