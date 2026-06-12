@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-06-12T08:31:07.874473+00:00",
+  "analysis": "ml_clustering_dimensionality_reduction",
+  "n_samples": 140,
+  "n_features": 2866,
+  "pca": {
+    "pc1_variance": 22.96,
+    "pc2_variance": 6.29,
+    "pcs_for_90pct": 1
+  },
+  "clustering": {
+    "method": "KMeans",
+    "best_k": 3,
+    "silhouette_scores": {
+      "2": 0.564,
+      "3": 0.5927,
+      "4": 0.5826,
+      "5": 0.5622,
+      "6": 0.5708
+    },
+    "cluster_ecm_chi2_p": 0.056074
+  },
+  "classification": {
+    "random_forest": {
+      "cv_auc_mean": 0.8684,
+      "cv_auc_std": 0.1072
+    },
+    "logistic_regression_l1": {
+      "cv_auc_mean": 0.8612,
+      "cv_auc_std": 0.065,
+      "n_selected_features": 26
+    }
+  },
+  "top_features": [
+    "FGF10",
+    "DMGDH",
+    "SLIT3",
+    "SRPX",
+    "NQO1",
+    "COL25A1",
+    "FGFR1",
+    "RYR2",
+    "PCDHB5",
+    "LOC100506388",
+    "DCLK1",
+    "COL8A2",
+    "COMP",
+    "ALDH1L2",
+    "EPYC",
+    "LOC101929122",
+    "HRNR",
+    "KCNJ8",
+    "ADAMTS7",
+    "CENPF"
+  ]
+}

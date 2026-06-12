@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-06-12T08:31:10.170799+00:00",
+  "analysis": "target_prioritisation",
+  "method": "multi_evidence_weighted_scoring",
+  "weights": {
+    "score_rna_significance": 0.2,
+    "score_rna_effect": 0.1,
+    "score_prot_significance": 0.2,
+    "score_prot_effect": 0.1,
+    "score_concordance": 0.25,
+    "score_ml_importance": 0.15
+  },
+  "total_ecm_genes_scored": 1070,
+  "evidence_tiers": {
+    "Tier 3: RNA only": 949,
+    "Tier 1: Multi-omics concordant": 111,
+    "Tier 2: RNA + Protein": 10
+  },
+  "top_10_targets": [
+    "SFTPA1",
+    "WNT9A",
+    "SEMA4F",
+    "FGF7",
+    "MMP20",
+    "GDF5",
+    "ELFN2",
+    "CX3CL1",
+    "C1QTNF8",
+    "ADAM21"
+  ],
+  "top_10_scores": [
+    0.75,
+    0.75,
+    0.75,
+    0.749,
+    0.749,
+    0.749,
+    0.748,
+    0.747,
+    0.747,
+    0.747
+  ]
+}
