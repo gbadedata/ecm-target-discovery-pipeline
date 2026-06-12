@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-06-12T04:13:37+0100",
+  "analysis": "pathway_enrichment",
+  "method": "fgsea",
+  "ranking_metric": "sign(log2FC) * -log10(pvalue)",
+  "gene_sets": {
+    "hallmark": 50,
+    "naba": 10,
+    "reactome_ecm": 33,
+    "total_tested": 85
+  },
+  "results": {
+    "significant_total": 45,
+    "up_in_tumour": 43,
+    "down_in_tumour": 2,
+    "ecm_pathways_tested": 31,
+    "ecm_pathways_significant": 15
+  },
+  "top_ecm_pathways": {
+    "pathway": ["REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION", "REACTOME_ASSEMBLY_OF_COLLAGEN_FIBRILS_AND_OTHER_MULTIMERIC_STRUCTURES", "REACTOME_COLLAGEN_FORMATION", "REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX", "NABA_ECM_REGULATORS", "REACTOME_COLLAGEN_DEGRADATION", "REACTOME_LAMININ_INTERACTIONS", "NABA_SECRETED_FACTORS", "REACTOME_CELL_EXTRACELLULAR_MATRIX_INTERACTIONS", "REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS"],
+    "NES": [1.681, 2.011, 1.969, 1.843, 1.644, 1.756, 1.822, 1.403, 1.781, 1.577],
+    "padj": [3.9094e-06, 0, 0, 0, 0.0001, 0.0014, 0.0016, 0.0038, 0.007, 0.009]
+  },
+  "top_hallmark_pathways": {
+    "pathway": ["HALLMARK_E2F_TARGETS", "HALLMARK_G2M_CHECKPOINT", "HALLMARK_MITOTIC_SPINDLE", "HALLMARK_INTERFERON_GAMMA_RESPONSE", "HALLMARK_GLYCOLYSIS", "HALLMARK_INTERFERON_ALPHA_RESPONSE", "HALLMARK_MTORC1_SIGNALING", "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION", "HALLMARK_MYC_TARGETS_V1", "HALLMARK_APICAL_JUNCTION"],
+    "NES": [2.743, 2.71, 2.301, 2.291, 2.255, 2.409, 2.159, 2.092, 2.042, 2.023],
+    "padj": [2.4296e-31, 7.8758e-29, 9.8794e-15, 2.6592e-14, 9.8227e-14, 8.1489e-13, 1.6681e-11, 1.8534e-10, 1.7875e-09, 3.0752e-09]
+  },
+  "r_version": "R version 4.3.3 (2024-02-29)",
+  "fgsea_version": "1.28.0"
+}
