@@ -1,0 +1,43 @@
+raw_column,clean_column,description,category
+case_id,case_id,CPTAC patient identifier,identifier
+tumor_included_for_the_study,tumour_in_study,Whether tumour sample was included,study
+normal_included_for_the_study,normal_in_study,Whether normal sample was included,study
+histology_diagnosis,histology,Histological diagnosis,pathology
+age,age,Age at diagnosis (years),demographics
+sex,sex,Biological sex (Male/Female),demographics
+race,race,Self-reported race (33/140 complete),demographics
+participant_country,country,Country of participant,demographics
+tumor_site,tumour_site,Anatomical site of tumour,pathology
+tumor_focality,tumour_focality,Tumour focality,pathology
+tumor_size_cm,tumour_size_cm,Tumour size in centimetres,pathology
+tumor_necrosis,tumour_necrosis,Presence of tumour necrosis,pathology
+lymph_vascular_invasion,lymphovascular_invasion,Lymphovascular invasion status,pathology
+perineural_invasion,perineural_invasion,Perineural invasion status,pathology
+number_of_lymph_nodes_examined,lymph_nodes_examined,Number of lymph nodes examined,pathology
+number_of_lymph_nodes_positive_for_tumor,lymph_nodes_positive,Number of positive lymph nodes,pathology
+pathologic_staging_regional_lymph_nodes_pn,stage_pn,Pathological N stage,staging
+pathologic_staging_primary_tumor_pt,stage_pt,Pathological T stage,staging
+pathologic_staging_distant_metastasis_pm,stage_pm,Pathological M stage,staging
+clinical_staging_distant_metastasis_cm,stage_cm,Clinical M stage,staging
+residual_tumor,residual_tumour,Residual tumour classification,pathology
+tumor_stage_pathological,stage_overall,Overall pathological stage,staging
+additional_pathologic_findings,additional_pathology,Additional pathological findings,pathology
+bmi,bmi,Body mass index,demographics
+alcohol_consumption,alcohol,Alcohol consumption history,demographics
+tobacco_smoking_history,smoking,Tobacco smoking history,demographics
+medical_condition,medical_conditions,Reported medical conditions,demographics
+Neoplastic_cellularity,cellularity_neoplastic,Pathologist-estimated neoplastic fraction,tissue_composition
+Acinar_fraction,fraction_acinar,Pathologist-estimated acinar fraction,tissue_composition
+Islet_fraction,fraction_islet,Pathologist-estimated islet fraction,tissue_composition
+Stromal_fraction,fraction_stromal,Pathologist-estimated stromal fraction,tissue_composition
+Non_neoplastic_duct,fraction_duct_nonneoplastic,Pathologist-estimated non-neoplastic duct fraction,tissue_composition
+Fat_fraction,fraction_fat,Pathologist-estimated fat fraction,tissue_composition
+Inflammation_fraction,fraction_inflammation,Pathologist-estimated inflammation fraction,tissue_composition
+Muscle_fraction,fraction_muscle,Pathologist-estimated muscle fraction,tissue_composition
+follow_up_days,survival_days,Overall survival time in days,survival
+vital_status,vital_status,Vital status at last follow-up,survival
+is_this_patient_lost_to_follow_up,lost_to_followup,Whether patient was lost to follow-up,survival
+cause_of_death,cause_of_death,Cause of death if deceased,survival
+[derived: Derived from vital_status],survival_event,"Binary survival event (1=dead, 0=alive)",survival
+[derived: Derived from follow_up_days / 30.44],survival_months,Overall survival in months,survival
+[derived: Derived from fraction_stromal],stromal_group,Stromal-high or stromal-low (median split),tissue_composition

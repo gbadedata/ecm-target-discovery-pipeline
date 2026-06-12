@@ -161,3 +161,54 @@ Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
 Installing package(s) 'GSVA'
 also installing the dependencies ‘curl’, ‘openssl’, ‘Biostrings’, ‘RCurl’, ‘xtable’, ‘httr’, ‘KEGGREST’, ‘GenomicRanges’, ‘GenomeInfoDb’, ‘annotate’, ‘graph’, ‘AnnotationDbi’, ‘XML’, ‘rhdf5’, ‘rhdf5filters’, ‘Rhdf5lib’, ‘ScaledMatrix’, ‘rsvd’, ‘beachmat’, ‘SummarizedExperiment’, ‘GSEABase’, ‘SingleCellExperiment’, ‘sparseMatrixStats’, ‘DelayedMatrixStats’, ‘HDF5Array’, ‘BiocSingular’
 
+  Installing fgsea...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'fgsea'
+  Installing SummarizedExperiment...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'SummarizedExperiment'
+also installing the dependencies ‘RCurl’, ‘GenomicRanges’, ‘GenomeInfoDb’
+
+  Installing GenomicRanges...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'GenomicRanges'
+also installing the dependencies ‘RCurl’, ‘GenomeInfoDb’
+
+  S4Vectors already installed
+  BiocGenerics already installed
+  Installing ESTIMATE...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'ESTIMATE'
+  Installing MCPcounter...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'MCPcounter'
+There were 50 or more warnings (use warnings() to see the first 50)
+
+--- Package verification ---
+Missing packages (20): tidyverse, survminer, factoextra, umap, rmarkdown, fs, testthat, DESeq2, org.Hs.eg.db, AnnotationDbi, biomaRt, clusterProfiler, enrichplot, msigdbr, GSVA, fgsea, SummarizedExperiment, GenomicRanges, ESTIMATE, MCPcounter
+You may need to install system dependencies and retry.
+
+R session info:
+R version: R version 4.3.3 (2024-02-29)
+BiocManager version: 1.30.27
+Done.

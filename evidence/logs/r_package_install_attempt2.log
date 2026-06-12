@@ -1,0 +1,87 @@
+Installing R packages for ECM Target Discovery Pipeline
+This may take 15-30 minutes on first run.
+
+Installing CRAN packages...
+  Installing tidyverse...
+also installing the dependencies ‘sass’, ‘bslib’, ‘gargle’, ‘curl’, ‘ids’, ‘openssl’, ‘systemfonts’, ‘textshaping’, ‘fs’, ‘rmarkdown’, ‘googledrive’, ‘googlesheets4’, ‘httr’, ‘ragg’, ‘reprex’, ‘rvest’, ‘xml2’
+
+  data.table already installed
+  readxl already installed
+  writexl already installed
+  jsonlite already installed
+  yaml already installed
+  survival already installed
+  Installing survminer...
+also installing the dependencies ‘nloptr’, ‘pbkrtest’, ‘lme4’, ‘car’, ‘rstatix’, ‘gridtext’, ‘ggpubr’, ‘ggtext’
+
+  broom already installed
+  ggfortify already installed
+  ggplot2 already installed
+  pheatmap already installed
+  ggrepel already installed
+  patchwork already installed
+  RColorBrewer already installed
+  viridis already installed
+  scales already installed
+  Installing factoextra...
+also installing the dependencies ‘fs’, ‘sass’, ‘bslib’, ‘rmarkdown’, ‘htmlwidgets’, ‘DT’, ‘FactoMineR’
+
+  cluster already installed
+  Installing umap...
+  Rtsne already installed
+  glmnet already installed
+  randomForest already installed
+  caret already installed
+  Installing rmarkdown...
+also installing the dependencies ‘fs’, ‘sass’, ‘bslib’
+
+  knitr already installed
+  here already installed
+  Installing fs...
+  janitor already installed
+  Installing testthat...
+also installing the dependencies ‘fs’, ‘pkgload’
+
+  optparse already installed
+There were 25 warnings (use warnings() to see them)
+
+Installing Bioconductor packages...
+  Installing DESeq2...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'DESeq2'
+also installing the dependencies ‘RCurl’, ‘GenomeInfoDb’, ‘GenomicRanges’, ‘SummarizedExperiment’
+
+  edgeR already installed
+  limma already installed
+  Installing org.Hs.eg.db...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'org.Hs.eg.db'
+also installing the dependencies ‘Biostrings’, ‘KEGGREST’, ‘AnnotationDbi’
+
+  AnnotationDbi already installed
+  Installing biomaRt...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'biomaRt'
+also installing the dependencies ‘XML’, ‘BiocFileCache’
+
+  Installing clusterProfiler...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'clusterProfiler'
+also installing the dependencies ‘sass’, ‘bslib’, ‘rmarkdown’, ‘gdtools’, ‘htmlwidgets’, ‘ggplotify’, ‘ggforce’, ‘ggiraph’, ‘tidytree’, ‘treeio’, ‘HDO.db’, ‘fgsea’, ‘aplot’, ‘ggfun’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘ggtree’, ‘fs’, ‘DOSE’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘yulab.utils’
+
