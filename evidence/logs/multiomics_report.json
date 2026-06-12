@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-06-12T08:04:36.680841+00:00",
+  "analysis": "multiomics_integration",
+  "method": "RNA_protein_log2FC_concordance",
+  "matched_genes": 8861,
+  "correlation": {
+    "spearman_rho": 0.4708,
+    "p_value": 0.0,
+    "n_pairs": 8861
+  },
+  "concordance": {
+    "concordant": 490,
+    "discordant": 24,
+    "rna_only": 252,
+    "protein_only": 1592
+  },
+  "ecm_specific": {
+    "ecm_matched": 527,
+    "ecm_concordant": 111,
+    "ecm_concordant_up": 85,
+    "ecm_concordant_down": 26,
+    "ecm_spearman_rho": 0.6044,
+    "top_concordant_ecm": [
+      "SERPINB5",
+      "S100P",
+      "LAMB3",
+      "S100A16",
+      "IL1RN",
+      "S100A11",
+      "LAMC2",
+      "S100A6",
+      "S100A10",
+      "LAMA3",
+      "COL17A1",
+      "ADAM8",
+      "ITGA2",
+      "SDC1",
+      "S100A14",
+      "PI3",
+      "PLAUR",
+      "HAPLN1",
+      "CAPG",
+      "WNT2"
+    ]
+  }
+}

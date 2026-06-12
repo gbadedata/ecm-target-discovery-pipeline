@@ -85,3 +85,64 @@ Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
 Installing package(s) 'clusterProfiler'
 also installing the dependencies ‘sass’, ‘bslib’, ‘rmarkdown’, ‘gdtools’, ‘htmlwidgets’, ‘ggplotify’, ‘ggforce’, ‘ggiraph’, ‘tidytree’, ‘treeio’, ‘HDO.db’, ‘fgsea’, ‘aplot’, ‘ggfun’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘ggtree’, ‘fs’, ‘DOSE’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘yulab.utils’
 
+  Installing enrichplot...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'enrichplot'
+also installing the dependencies ‘sass’, ‘bslib’, ‘rmarkdown’, ‘gdtools’, ‘htmlwidgets’, ‘ggplotify’, ‘fgsea’, ‘ggiraph’, ‘tidytree’, ‘treeio’, ‘fs’, ‘aplot’, ‘DOSE’, ‘ggfun’, ‘scatterpie’, ‘shadowtext’, ‘GOSemSim’, ‘ggtree’, ‘yulab.utils’
+
+  Installing msigdbr...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'msigdbr'
+  Installing GSVA...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'GSVA'
+also installing the dependencies ‘annotate’, ‘GSEABase’, ‘SingleCellExperiment’
+
+  Installing fgsea...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'fgsea'
+  SummarizedExperiment already installed
+  GenomicRanges already installed
+  S4Vectors already installed
+  BiocGenerics already installed
+  Installing ESTIMATE...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'ESTIMATE'
+  Installing MCPcounter...
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'MCPcounter'
+There were 44 warnings (use warnings() to see them)
+
+--- Package verification ---
+
+Missing packages (10): tidyverse, factoextra, rmarkdown, fs, testthat, clusterProfiler, enrichplot, fgsea, ESTIMATE, MCPcounter
+You may need to install system dependencies and retry.
+
+R session info:
+R version: R version 4.3.3 (2024-02-29)
+BiocManager version: 1.30.27
+Done.

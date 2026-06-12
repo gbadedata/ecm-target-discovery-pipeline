@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-06-12T09:04:41+0100",
+  "analysis": "survival_analysis",
+  "patients_with_survival": 135,
+  "events": 76,
+  "censored": 59,
+  "median_followup_months": 13.1,
+  "kaplan_meier_ecm": {
+    "logrank_p": 0.8344,
+    "significant": false
+  },
+  "kaplan_meier_stromal": {
+    "logrank_p": 0.761
+  },
+  "cox_univariate_ecm": {
+    "hr": 0.002,
+    "ci_lower": 0,
+    "ci_upper": 5.185,
+    "p_value": 0.1222
+  },
+  "r_version": "R version 4.3.3 (2024-02-29)",
+  "survival_version": "3.5.8"
+}
