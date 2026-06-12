@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-06-12T03:58:55+0100",
+  "analysis": "differential_expression",
+  "method": "limma_lmFit_eBayes",
+  "comparison": "Tumour_vs_Normal",
+  "samples": {
+    "tumour": 140,
+    "normal": 21,
+    "total": 161
+  },
+  "filtering": {
+    "genes_before": 28057,
+    "genes_after": 24133,
+    "genes_removed": 3924,
+    "criterion": "log2 > 1 in >= 10% of samples"
+  },
+  "thresholds": {
+    "padj": 0.05,
+    "log2fc": 1
+  },
+  "results": {
+    "genes_tested": 24133,
+    "significant_total": 2866,
+    "up_in_tumour": 1385,
+    "down_in_tumour": 1481
+  },
+  "ecm_analysis": {
+    "ecm_genes_in_dataset": 1070,
+    "ecm_significant": 306,
+    "ecm_up": 170,
+    "ecm_down": 136,
+    "gene_set_sources": ["MSigDB_NABA_MATRISOME", "HALLMARK_EMT"],
+    "top_ecm_genes": ["SERPINB5", "S100P", "LAMB3", "S100A16", "IL1RN", "S100A11", "LAMC2", "S100A6", "S100A10", "LAMA3", "COL17A1", "ESM1", "ADAM8", "ITGA2", "SDC1"]
+  },
+  "r_version": "R version 4.3.3 (2024-02-29)",
+  "limma_version": "3.58.1"
+}
