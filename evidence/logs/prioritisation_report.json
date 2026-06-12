@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T08:31:10.170799+00:00",
+  "timestamp": "2026-06-12T08:34:54.610485+00:00",
   "analysis": "target_prioritisation",
   "method": "multi_evidence_weighted_scoring",
   "weights": {
@@ -17,27 +17,27 @@
     "Tier 2: RNA + Protein": 10
   },
   "top_10_targets": [
-    "SFTPA1",
-    "WNT9A",
-    "SEMA4F",
-    "FGF7",
-    "MMP20",
-    "GDF5",
-    "ELFN2",
-    "CX3CL1",
-    "C1QTNF8",
-    "ADAM21"
+    "SERPINB5",
+    "S100A11",
+    "IL1RN",
+    "INHBA",
+    "COL11A1",
+    "S100P",
+    "CTHRC1",
+    "COL12A1",
+    "THBS2",
+    "LAMA3"
   ],
   "top_10_scores": [
-    0.75,
-    0.75,
-    0.75,
-    0.749,
-    0.749,
-    0.749,
-    0.748,
-    0.747,
-    0.747,
-    0.747
+    0.975,
+    0.967,
+    0.963,
+    0.962,
+    0.959,
+    0.955,
+    0.951,
+    0.951,
+    0.944,
+    0.943
   ]
 }

@@ -28,9 +28,16 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
 def score_column(series: pd.Series, ascending: bool = True) -> pd.Series:
-    """Rank-based score normalised to 0-1 (1 = strongest evidence)."""
+    """Rank-based score normalised to 0-1 (1 = strongest evidence).
+
+    Args:
+        series: Values to score.
+        ascending: If True, lower values score higher (e.g., p-values).
+                   If False, higher values score higher (e.g., |log2FC|).
+    """
     ranked = series.rank(ascending=ascending, method="average", na_option="bottom")
-    return (ranked - ranked.min()) / (ranked.max() - ranked.min())
+    normalised = (ranked - ranked.min()) / (ranked.max() - ranked.min())
+    return 1.0 - normalised
 
 
 def main():
@@ -152,7 +159,8 @@ def main():
     # Evidence tier
     targets["evidence_tier"] = "Tier 3: RNA only"
     targets.loc[
-        targets["rna_significant"] & targets["prot_significant"].fillna(False),
+        targets["rna_significant"]
+        & targets["prot_significant"].fillna(False).infer_objects(copy=False),
         "evidence_tier"
     ] = "Tier 2: RNA + Protein"
     targets.loc[
