@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-06-12T09:00:56+0100",
+  "analysis": "proteomics_differential_abundance",
+  "method": "limma_with_minprob_imputation",
+  "comparison": "Tumour_vs_Normal",
+  "samples": {
+    "tumour": 140,
+    "normal": 75
+  },
+  "missingness": {
+    "tumour_overall_pct": 24.63,
+    "normal_overall_pct": 24.83,
+    "proteins_complete_both": 5735,
+    "imputation_method": "MinProb (q=0.01, sd_factor=0.3)"
+  },
+  "filtering": {
+    "proteins_before": 11662,
+    "proteins_after": 8876,
+    "criterion": "Detected in >= 50% of samples in either group"
+  },
+  "thresholds": {
+    "padj": 0.05,
+    "log2fc": 0.5
+  },
+  "results": {
+    "proteins_tested": 8876,
+    "significant_total": 2114,
+    "up_in_tumour": 1112,
+    "down_in_tumour": 1002
+  },
+  "ecm_analysis": {
+    "ecm_proteins_in_dataset": 529,
+    "ecm_significant": 308,
+    "ecm_up": 268,
+    "ecm_down": 40,
+    "top_ecm_proteins": ["SULF1", "SERPINI2", "MDK", "S100A11", "PLOD3", "ANXA2", "MXRA5", "SNTB1", "INHBA", "LTBP1", "LAMC2", "IGFBP2", "CTHRC1", "THBS2", "PDLIM4"]
+  },
+  "r_version": "R version 4.3.3 (2024-02-29)",
+  "limma_version": "3.58.1"
+}
